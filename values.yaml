@@ -1,1 +1,2 @@
-BaseImage: test
+BaseImage: golang:1.9.4-alpine3.7
+Binary: dockertmpl

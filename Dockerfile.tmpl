@@ -1,6 +1,6 @@
 FROM {{ .BaseImage }}
 
-ENV BIN=cmd
+ENV BIN={{ .Binary }}
 
 COPY build/*-linux-amd64 /go/bin/$BIN
 
